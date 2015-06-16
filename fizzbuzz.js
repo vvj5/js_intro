@@ -1,19 +1,19 @@
+var loopNumbers = function () {
+        for (var i = 1; i <= 100; i++) {
+        if  (i % 3 === 0 && i % 5 === 0)
+            { console.log("FizzBuzz") }
+    else if (i % 3 === 0)
+            { console.log("Fizz") }
+    else if (i % 5 === 0)
+            { console.log("Buzz") }
+       else { console.log(i)}
+    } //closes for loop
+}; //closes function
+
+loopNumbers()
 
 
-
-
-
-
-
-
-
-// (1..100).each do |n|
-// if n % 3 && 5 == 0
-//   puts "FizzBuzz"
-// elsif n % 3 == 0
-//   puts "Fizz"
-// elsif n % 5 == 0
-//   puts "Buzz"
-// else puts n
-// end
-// end
+// if (the condition)
+// {do this, computer!}
+// else if (some other condition)
+// {do this other thing};
